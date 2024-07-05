@@ -18,3 +18,23 @@ nav{
     border: none;
     font-size: 20px;
 }
+main{
+    padding: 20px 60px;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+.card{
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
